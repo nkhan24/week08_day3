@@ -1,9 +1,9 @@
-const Car = require('./Car.js');
+const Car = require('./car.js');
 
 const Dealership = function(name,maxCars,currentCars){
     this.name = name;
     this.maxCars = maxCars;
-    this.currentCars = currentCars;
+    this.currentCars = [];
 }
 
 
